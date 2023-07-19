@@ -132,24 +132,11 @@
 
 // 8.Գրել ծրագիր, որը վերադարձնում է զանգվածի մեջ ամենաշատ կրկրնվող տարրերը:
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8, 8, 4, 9, 9, 1];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8, 8, 4, 9, 9, 1];
 
-function mostRepeat(arr) {
-  let count = 0;
-  let sortedArr = arr.sort((a, b) => a - b);
-  
-  let elem;
+// function mostRepeat(arr) {}
 
-  for (let i = 0; i < sortedArr.length; i++) {
-    if (sortedArr[i] == sortedArr[i + 1]) {
-      console.log(sortedArr[i]);
-      count++;
-    }
-  }
-  return count;
-}
-
-console.log(mostRepeat(arr));
+// console.log(mostRepeat(arr));
 
 //9.Գրել ծրագիր, որն ընդունում է թվերի զանգված և յուրաքանչյուր տարր բազմապատկում 2-ով:
 
